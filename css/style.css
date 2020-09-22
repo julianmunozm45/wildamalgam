@@ -1,0 +1,46 @@
+/*
+  Colors:
+  Light yellow: #FFF59D
+  Medium yellow: #fff30f
+  Light green: #DCE775
+  Medium green: #8BC34A
+  Dark green: #388E3C
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
+.content {
+  padding: 2em;
+}
+
+.hero {
+  height: 95vh;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 243, 15, 0.8),
+      rgba(56, 142, 60, 0.8)
+    ),
+    url(../img/wildamalgam-cover.JPG);
+  background-position: top;
+  position: relative;
+}
+
+.main-title {
+  position: absolute;
+  color: #fff;
+  bottom: 45%;
+  left: 30%;
+}
